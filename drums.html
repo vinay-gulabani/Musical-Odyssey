@@ -1,0 +1,46 @@
+<!-- Exercises 
+Exercise 1: Let's start by adding a heading.
+Exercise 2: Add the image of the drumset part and style it.
+Exercise 3: Let's understand the position property with examples.
+Exercise 4: Use the absolute value to position the drum set.
+Bonus: Position the music band in the center.
+
+Homework 1: Add the remaining drums and position them.
+-->
+
+<html>
+  <head>
+    <title>Music band</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+</script>
+    <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+    function play(audioId) {
+      var audio = document.getElementById(audioId);
+            audio.currentTime = 0; /**/
+      audio.play();
+    }
+      </script> 
+    <h1>MUSIC BAND</h1>
+    <img class = 'music' id = "kick" src = 'images/kick.png' onclick = "play('kick-audio')"  >
+    <img class = 'music' id = "crash" src = 'images/crash.png' onclick = "play('crash-audio')">
+    <img class = 'music' id = "snare" src = 'images/snare.png' onclick = "play('snare-audio')">
+    <img class = 'music' id = "tomleft" src = 'images/tomleft.png' onclick = "play('tomleft-audio')">
+    <img class = 'music' id = "hihat" src = 'images/hihat.png' onclick = "play('hihat-audio')">
+    <img class = 'music' id = "tomright" src = 'images/tomright.png' onclick = "play('tomright-audio')">
+    <img class = 'music' id = "tom" src = 'images/tom.png' onclick = "play('tom-audio')">
+    
+    
+    <audio src="sounds/kick.mp3" id = "kick-audio" preload></audio>
+    <audio src="sounds/snare.mp3" id = "snare-audio" preload></audio>  
+    <audio src = "sounds/crash.mp3" id = "crash-audio" preload></audio>
+    <audio src= "sounds/tomleft.mp3" id = "tomleft-audio" preload></audio>
+    <audio src="sounds/hihat.mp3" id = "hihat-audio" preload></audio>
+    <audio src="sounds/tomright.mp3" id = "tomright-audio" preload></audio>  
+    <audio src = "sounds/tom.mp3" id = "tom-audio" preload></audio>
+    <audio src="sounds/music1.mp3" id = "bgmusic" controls></audio>
+  </body>
+</html>
