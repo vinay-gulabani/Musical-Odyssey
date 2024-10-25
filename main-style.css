@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Handlee&family=Kanit:ital@1&family=Lobster&family=Righteous&family=Tektur&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kanit:ital@1&family=Righteous&family=Tektur&display=swap');
+
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+  	background: url('https://getwallpapers.com/wallpaper/full/4/4/1/994410-vertical-large-background-images-2560x1600.jpg');
+    text-align: center;
+    width:850px;
+    height: 450px;
+    position: relaive;
+    margin: auto;
+    position: relaive;
+}
+
+.h2{
+    color: yellow;
+    font-size: 40;
+    position: absolute;
+    bottom: 225px;
+    left: 394px;
+}
+
+.h21{
+    color: yellow;
+    font-size: 40;
+    position: absolute;
+    bottom: 150px;
+    left: 470px;
+  text-align: center;
+}/**/
+
+.main{
+  position: absolute;
+}
+
+#h1{
+    font-family: 'Lobster';
+    font-size: 55;
+    color: white;
+    width: 206px;
+    bottom: 432px;
+    left: 516px;
+  
+}
+
+#h3{
+    color: #f5ff00;
+    font-size: 25;
+    font-family: 'Righteous', cursive;
+    width: 245px;
+    bottom: 390px;
+    left: 498px;
+}
+
+#red{
+    width: 349px;
+    bottom: 412px;
+    left: 447px;
+  
+}
+
+#instruments1{
+    width: 349px;
+    bottom: 436;
+    left: 48px;
+  
+}
+
+#instruments2{
+    width: 349px;
+    bottom: 436px;
+    left: 844px;
+  
+}
+
+
+
+
+.container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -117px;
+    left: 110px;
+}
+
+.container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 75%;
+  width: 75%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.front {
+  background-image: url('https://images.freeimages.com/clg/istock/previews/8523/85233035-illustration-of-rainbow-colored-piano-keys-musical-notes.jpg');
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  background-color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -118px;
+    left: 881px;
+}
+
+.container2:hover > .card2 {
+  cursor: pointer;
+  transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  height: 75%;
+  width: 75%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+}
+
+.front2,
+.back2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.front2 {
+  background-image: url('https://kolbapps.com/assets/img/app/bg-real-drum-tiles.png');
+  justify-content: center;
+  align-items: center;
+}
+
+.back2 {
+  background-color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link,
+a:visited {
+  background-color: wheat;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: burlywood;
+} 
